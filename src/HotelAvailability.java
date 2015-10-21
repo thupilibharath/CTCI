@@ -234,12 +234,11 @@ public class HotelAvailability {
 
     }
 
-
     /**
-     * Driver function.
-     * @param args Command Line arguments
+     * Function for parsing input and producing output
+     * @param args Command line arguments received
      */
-    public static void main(final String[] args) {
+    final void checkInputAndProcess(final String[] args) {
         int n = args.length;
         String d1 = null; String d2 = null;
         String hotelFile = null; String bookingFile = null;
@@ -269,8 +268,7 @@ public class HotelAvailability {
                     }
                 }
 
-                HotelAvailability availableHotels = new HotelAvailability();
-                availableHotels.getHotels(hotelFile, bookingFile, d1, d2);
+                getHotels(hotelFile, bookingFile, d1, d2);
 
             } catch (ParseException e) {
                 System.out.println("Please enter Date parateters in yyyy-mm-dd format");
@@ -287,6 +285,16 @@ public class HotelAvailability {
                 }
             }
         }
+    }
 
+
+    /**
+     * Driver function.
+     * @param args Command Line arguments
+     */
+    public static void main(final String[] args) {
+
+        HotelAvailability availableHotels = new HotelAvailability();
+        availableHotels.checkInputAndProcess(args);
     }
 }
