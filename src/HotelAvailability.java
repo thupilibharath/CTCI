@@ -13,7 +13,8 @@
  *
  * In the main class HotelAvailability, two utility functions that parse two
  * input files and return the data as HashMaps are used. These functions ignore
- * the first line of csv files as they describe contents.
+ * the first line of csv files as they describe contents. Please make sure
+ * that there is a space after each comma in the csv
  *
  * Finally in the function getHotels(), All the hotels which have no bookings
  * at all and the ones with availability are found and printed on to the console.
