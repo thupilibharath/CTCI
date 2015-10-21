@@ -1,35 +1,35 @@
 /**
- --------  DOCUMENTATION -------
-
- ALGORITHM:
-    To check whether the required booking range is available in a particular
-    hotel, we check for the overlapping of the range with the existing bookings
-    in that particular hotel. If this number is greater than or equal to the
-    rooms available in that hotel, it is not available. Else it is available.
-
- A data structure daterange is used which contaiins start, end dates in the
- given range and a function that checks whether this range overlaps with other
- range or not is a part of this class.
-
- In the main class HotelAvailability, two utility functions that parse two
- input files and return the data as HashMaps are used. These functions ignore
- the first line of csv files as they describe contents.
-
- Finally in the function getHotels(), All the hotels which have no bookings
- at all and the ones with availability are found and printed on to the console.
-
- USAGE:
-    sample : java HotelAvailability --hotels metropolis_hotels.csv
- --bookings metropolis_bookings.csv --checkin 2015-08-01 --checkout 2015-08-05
-
- order of parameters such as --hotels, --bookings can be changed.
- For eg. following usage is also valid
- java HotelAvailability --bookings metropolis_bookings.csv --hotels
- metropolis_hotels.csv --checkin 2015-08-01 --checkout 2015-08-05
-
- However the two input files must also be in the same directory from which the
- tool is being invoked and dates should be in yyyy-mm-dd format
-
+ *--------  DOCUMENTATION -------
+ *
+ *ALGORITHM:
+ *   To check whether the required booking range is available in a particular
+ *   hotel, we check for the overlapping of the range with the existing bookings
+ *   in that particular hotel. If this number is greater than or equal to the
+ *   rooms available in that hotel, it is not available. Else it is available.
+ *
+ * A data structure daterange is used which contaiins start, end dates in the
+ * given range and a function that checks whether this range overlaps with other
+ * range or not is a part of this class.
+ *
+ * In the main class HotelAvailability, two utility functions that parse two
+ * input files and return the data as HashMaps are used. These functions ignore
+ * the first line of csv files as they describe contents.
+ *
+ * Finally in the function getHotels(), All the hotels which have no bookings
+ * at all and the ones with availability are found and printed on to the console.
+ *
+ * USAGE:
+ *   sample : java HotelAvailability --hotels metropolis_hotels.csv
+ * --bookings metropolis_bookings.csv --checkin 2015-08-01 --checkout 2015-08-05
+ *
+ * order of parameters such as --hotels, --bookings can be changed.
+ * For eg. following usage is also valid
+ * java HotelAvailability --bookings metropolis_bookings.csv --hotels
+ * metropolis_hotels.csv --checkin 2015-08-01 --checkout 2015-08-05
+ *
+ * However the two input files must also be in the same directory from which the
+ * tool is being invoked and dates should be in yyyy-mm-dd format
+ *
  */
 
 import java.util.HashMap;
