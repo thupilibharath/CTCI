@@ -1,8 +1,4 @@
 /**
- * Created by Bharath on 10/20/15.
- */
-
-/**
  --------  DOCUMENTATION -------
 
  ALGORITHM:
