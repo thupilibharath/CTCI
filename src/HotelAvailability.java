@@ -111,7 +111,7 @@ public class HotelAvailability {
             try {
                 if (br != null)br.close();
             } catch (IOException ex) {
-                ex.printStackTrace();
+                System.out.println("Error occured while closing Hotels file");
             }
         }
         return hotels;
@@ -160,12 +160,12 @@ public class HotelAvailability {
             //System.out.println(Bookings);
             return bookings;
         } catch (Exception e) {
-            System.out.println("Error occured while reading Hotels file" + e);
+            System.out.println("Error occured while reading Bookings file" + e);
         } finally {
             try {
                 if (br != null)br.close();
             } catch (IOException ex) {
-                ex.printStackTrace();
+                System.out.println("Error occured while closing Bookings file");
             }
         }
         return bookings;
@@ -228,7 +228,7 @@ public class HotelAvailability {
 
 
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Error occured while processing information.. Please try again");
         }
 
 
@@ -283,7 +283,7 @@ public class HotelAvailability {
                     if (br != null)
                         br.close();
                 } catch (IOException ex) {
-                    ex.printStackTrace();
+                    System.out.println("Error occured while closing the file");
                 }
             }
         }
