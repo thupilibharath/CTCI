@@ -2,8 +2,6 @@
  * Created by Bharath on 09/02/15.
  */
 
-import java.util.*;
-
 public class Inversions {
 
     private int[] input;
@@ -32,7 +30,7 @@ public class Inversions {
     }
 
 
-    private int mergeParts(int [] c, int low, int mid, int high) {
+    private int mergeParts(int[] c, int low, int mid, int high) {
         int count = 0;
         //for(int i=low;i<=high;i++)
         //  temp[i] = input[i];
@@ -78,7 +76,6 @@ public class Inversions {
         System.out.println("\n");
 
         //System.out.println(s.count);
-
 
 
     }
