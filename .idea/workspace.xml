@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="035007d0-4447-4156-a163-5f86ba675c71" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BFS.java" afterPath="$PROJECT_DIR$/src/BFS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BSTOperations.java" afterPath="$PROJECT_DIR$/src/BSTOperations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DFS.java" afterPath="$PROJECT_DIR$/src/DFS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DPCoinChange.java" afterPath="$PROJECT_DIR$/src/DPCoinChange.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DPMatrixPaths.java" afterPath="$PROJECT_DIR$/src/DPMatrixPaths.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Dijkstra.java" afterPath="$PROJECT_DIR$/src/Dijkstra.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FindSubString.java" afterPath="$PROJECT_DIR$/src/FindSubString.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HashMapOperations.java" afterPath="$PROJECT_DIR$/src/HashMapOperations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HotelAvailability.java" afterPath="$PROJECT_DIR$/src/HotelAvailability.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InfixtoPostfix.java" afterPath="$PROJECT_DIR$/src/InfixtoPostfix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Inversions.java" afterPath="$PROJECT_DIR$/src/Inversions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MasterMind.java" afterPath="$PROJECT_DIR$/src/MasterMind.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Max_Linear_Sum.java" afterPath="$PROJECT_DIR$/src/Max_Linear_Sum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Maximum_nocomp.java" afterPath="$PROJECT_DIR$/src/Maximum_nocomp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MergeSort.java" afterPath="$PROJECT_DIR$/src/MergeSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Prims.java" afterPath="$PROJECT_DIR$/src/Prims.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Reflectiontest.java" afterPath="$PROJECT_DIR$/src/Reflectiontest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SortStackElements.java" afterPath="$PROJECT_DIR$/src/SortStackElements.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StackOperations.java" afterPath="$PROJECT_DIR$/src/StackOperations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StringPermutations.java" afterPath="$PROJECT_DIR$/src/StringPermutations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Stringmanip_anagram.java" afterPath="$PROJECT_DIR$/src/Stringmanip_anagram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pascaltrianglekrow.java" afterPath="$PROJECT_DIR$/src/pascaltrianglekrow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spiralmatrix.java" afterPath="$PROJECT_DIR$/src/spiralmatrix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CTCI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,9 +61,12 @@
       <file leaf-file-name="Stringmanip_anagram.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Stringmanip_anagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.417127">
-              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-              <folding />
+            <state vertical-scroll-proportion="0.4723757">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <element signature="e#251#262#0" expanded="true" />
+                <element signature="e#317#328#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/metropolis_hotels.csv" />
         <option value="$PROJECT_DIR$/src/HotelAvailability.java" />
         <option value="$PROJECT_DIR$/src/metropolis_bookings.csv" />
+        <option value="$PROJECT_DIR$/src/Stringmanip_anagram.java" />
       </list>
     </option>
   </component>
@@ -191,7 +218,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,6 +271,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -717,6 +744,8 @@
       <workItem from="1446044526502" duration="138000" />
       <workItem from="1446044701644" duration="485000" />
       <workItem from="1446075167568" duration="274000" />
+      <workItem from="1446227930032" duration="34000" />
+      <workItem from="1446227980656" duration="183000" />
     </task>
     <task id="LOCAL-00001" summary="New Update">
       <created>1445373024836</created>
@@ -782,7 +811,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145653000" />
+    <option name="totallyTimeSpent" value="145870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1226,7 +1255,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#5387#5398#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1241,9 +1269,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stringmanip_anagram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.417127">
-          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding />
+        <state vertical-scroll-proportion="0.4723757">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="e#251#262#0" expanded="true" />
+            <element signature="e#317#328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

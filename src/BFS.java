@@ -4,40 +4,34 @@
 import java.util.*;
 
 public class BFS {
-    public static class Node
-    {
+    public static class Node {
         int value;
         List<Node> vertices = new ArrayList<Node>();
         boolean visited = false;
 
-        public Node(int val)
-        {
-            value=val;
+        public Node(int val) {
+            value = val;
         }
 
-        public void addVertex(Node v)
-        {
+        public void addVertex(Node v) {
             vertices.add(v);
         }
 
     }
 
-    public static Node find(Node root, int element)
-    {
-        Queue q= new LinkedList();
+    public static Node find(Node root, int element) {
+        Queue q = new LinkedList();
         q.add(root);
 
-        while(!q.isEmpty())
-        {
+        while (!q.isEmpty()) {
             Node n = (Node)q.poll();
-            n.visited=true;
+            n.visited = true;
 
-            if(n.value==element)
+            if (n.value == element)
                 return n;
 
-            for(Node v:n.vertices)
-            {
-                if(v.visited==true)
+            for (Node v : n.vertices) {
+                if (v.visited == true)
                     continue;
                 else
                     q.add(v);
@@ -47,8 +41,7 @@ public class BFS {
         return null;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Node n1 = new Node(1);
         Node n2 = new Node(2);
         Node n3 = new Node(3);
